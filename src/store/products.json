@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "title": "Customization Form",
+    "shortDescription": "Individual form according to your requests. <br> <br> <br>",
+    "fullDescription": [
+      "To purchase, contact the administration in the discord. There will never be weapons in the uniform, etc., this is exclusively customization of game clothes. The period of extermination is ~ 3 days.",
+      "Specify the cost of the form in the ticket.\" to \"Customization Form. To purchase, please contact the Administration in the Panacea Discord. Please note that weapons are not includes in the clothing.",
+      "This is exclusively for the customization of clothes you will spawn into. The period of expiration is three (3) days after the ticket being made. Lastly, please specify the cost of the customization in the ticket."
+    ],
+    "price": "Custom",
+    "mainImg": "car.png",
+    "imgForSlider": [
+      "car.png",
+      "car.png",
+      "car.png"
+    ],
+    "type": "tovar"
+  },
+  {
+    "id": 2,
+    "title": "Priority Queue",
+    "shortDescription": "By purchasing Priority Que, you will log into the server before others. The privilege is valid for a month. <br> <br>",
+    "fullDescription": [
+      "By purchasing Priority Que, you will log into the server before others. The privilege is valid for a month."
+    ],
+    "price": "$5 - $100",
+    "mainImg": "car.png",
+    "type": "usluga"
+  },
+  {
+    "id": 3,
+    "title": "Subscribing to Sets",
+    "shortDescription": "Buy a subscription only if you have a set, or you know how it works\" to \"Buy a subscription ONLY if you have a set, OR if you know how it works. ",
+    "fullDescription": [
+      "Buy a subscription only if you have a set, or you know how it works\" to \"Buy a subscription ONLY if you have a set, OR if you know how it works."
+    ],
+    "price": "$5 - $35",
+    "mainImg": "car.png",
+    "type": "sets"
+  },
+  {
+    "id": 4,
+    "title": "Donation",
+    "shortDescription": "Donate to Panacea Project and its development <br> <br> <br>",
+    "fullDescription": [
+      "Donate to Panacea Project and its development"
+    ],
+    "price": "Custom",
+    "mainImg": "car.png",
+    "type": "donat"
+  }
+]

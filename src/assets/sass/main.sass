@@ -1,0 +1,110 @@
+@import "vars"
+@import "colors"
+@import "mixins"
+@import "fonts"
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+    font-family: 'Inter', sans-serif
+    color: $white
+    font-size: 16px
+    letter-spacing: 0.4px
+body
+    // background-image: url("~@/assets/img/main_bg.png")
+    // +bg
+    width: 100%
+    min-height: 100%
+    overflow-x: hidden
+    position: relative
+    &.hide
+        overflow: hidden
+
+li
+    list-style: none
+button,a
+    cursor: pointer
+    +inher
+    text-decoration: none
+    border: 0 none
+    outline: 0 none
+    background: none
+.container
+    max-width: $mainContainer
+    width: 100%
+    margin: 0 auto
+.link__block
+    display: flex
+    justify-content: center
+img
+    width: 100%
+    height: auto
+input, select
+    border: 0 none
+    outline: 0 none
+span
+    +inher
+.section__title
+    font-size: 21px
+    font-weight: 600
+.min__logo
+    width: 62px
+.info__title
+    +flexa
+    justify-content: space-between
+    margin-bottom: 14px
+    img
+        margin-right: 22px
+.info__container
+    +flexa
+::-webkit-scrollbar
+    width: 5px
+::-webkit-scrollbar-track
+    background: #45121B
+::-webkit-scrollbar-thumb
+    background: #801524
+    border-radius: 36px
+.openBody
+    overflow: hidden
+.modalBg
+    position: fixed
+    width: 100%
+    height: 100vh
+    z-index: $absIndex
+    top: 0
+    left: 0
+    +flexa
+    justify-content: center
+    transition: .2s
+    display: none
+    background: rgba(0, 0, 0, 0.78)
+    &-active
+        display: flex
+.modal__main
+    background: url(~@/assets/img/server_bg_1.png)
+    +bg
+    border-radius: 21px
+    position: relative
+    padding: 20px 25px
+    transition: .5s
+    opacity: 0
+    &-active
+        opacity: 1
+.swiper-pagination
+    bottom: 10px !important
+.swiper-pagination-bullet
+    width: 11px !important
+    height: 11px !important
+    border: 1px solid hsla(0,0%,100%,.3) !important
+    background-color: transparent !important
+    &-active
+        background-color: #fff !important
+.swiper-button-disabled
+    display: none !important
+.swiper-button-prev:after, .swiper-button-next:after
+    font-size: 22px !important
+    color: $white !important
+    opacity: 0.8 !important
+.blur
+    background: none
+    backdrop-filter: blur(7px)

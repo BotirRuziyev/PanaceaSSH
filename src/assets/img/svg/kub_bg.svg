@@ -1,0 +1,46 @@
+<svg width="904" height="1031" viewBox="0 0 904 1031" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_1_2)">
+<path d="M378.5 482L506.239 555.75V703.25L378.5 777L250.761 703.25V555.75L378.5 482Z" fill="url(#paint0_radial_1_2)" fill-opacity="0.15"/>
+<path d="M252.761 556.905L378.5 484.309L504.239 556.905V702.095L378.5 774.691L252.761 702.095V556.905Z" stroke="url(#paint1_radial_1_2)" stroke-width="4"/>
+</g>
+<g filter="url(#filter1_d_1_2)">
+<path d="M525.5 246L653.239 319.75V467.25L525.5 541L397.761 467.25V319.75L525.5 246Z" fill="url(#paint2_radial_1_2)" fill-opacity="0.15"/>
+<path d="M399.761 320.905L525.5 248.309L651.239 320.905V466.095L525.5 538.691L399.761 466.095V320.905Z" stroke="url(#paint3_radial_1_2)" stroke-width="4"/>
+</g>
+<defs>
+<filter id="filter0_d_1_2" x="0.761261" y="236" width="755.477" height="795" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="125"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.917647 0 0 0 0 0.219608 0 0 0 0 0.301961 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+</filter>
+<filter id="filter1_d_1_2" x="147.761" y="0" width="755.477" height="795" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="125"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.917647 0 0 0 0 0.219608 0 0 0 0 0.301961 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_1_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(291.082 534.394) rotate(50.9436) scale(295.557)">
+<stop stop-color="#EA384D"/>
+<stop offset="1" stop-color="#EA384D" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint1_radial_1_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(335.503 598.747) rotate(76.4385) scale(183.365)">
+<stop stop-color="#EA384D"/>
+<stop offset="1" stop-color="#EA384D" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint2_radial_1_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(438.082 298.394) rotate(50.9436) scale(295.557)">
+<stop stop-color="#EA384D"/>
+<stop offset="1" stop-color="#EA384D" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint3_radial_1_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(482.503 362.747) rotate(76.4385) scale(183.365)">
+<stop stop-color="#EA384D"/>
+<stop offset="1" stop-color="#EA384D" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
