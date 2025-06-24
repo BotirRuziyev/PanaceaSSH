@@ -161,7 +161,7 @@ export default {
             closeButton: "button",
             icon: true,
             rtl: false,
-          },
+          }
         );
       }
     },
@@ -177,6 +177,8 @@ header
   top: 0
   width: 100%
   z-index: $modalIndex
+  @media (max-width: $mobileContainer)
+    padding: 24px 0
 
   .container
     +flexa
