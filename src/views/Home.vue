@@ -240,156 +240,173 @@
       }"
       ref="section2"
     >
-      <div class="project-benefits__container">
-        <h2 class="project-benefits__title">
-          Why
-          <span class="project-benefits__title--highlight">Panacea DayZ</span
-          ><br />
-          is the best project to play.
-        </h2>
-        <div class="swiper__arrows">
-          <button
-            class="swiper-button swiper-button-prev project-benefits__arrow--prev"
-          >
-            <svg
-              width="21"
-              height="12"
-              viewBox="0 0 21 12"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+      <div class="project-benefits-in">
+        <div class="project-benefits__container">
+          <h2 class="project-benefits__title">
+            Why
+            <span class="project-benefits__title--highlight">Panacea DayZ</span
+            ><br />
+            is the best project to play.
+          </h2>
+          <div class="swiper__arrows">
+            <button
+              class="swiper-button swiper-button-prev project-benefits__arrow--prev"
             >
-              <path
-                d="M19.3623 4.92773C19.7765 4.92773 20.1123 5.26352 20.1123 5.67773C20.1123 6.09195 19.7765 6.42773 19.3623 6.42773L19.3623 4.92773ZM1.10761 6.20806C0.814716 5.91517 0.814716 5.4403 1.10761 5.1474L5.88058 0.374432C6.17347 0.081539 6.64835 0.081539 6.94124 0.374432C7.23413 0.667326 7.23413 1.1422 6.94124 1.43509L2.6986 5.67773L6.94124 9.92037C7.23413 10.2133 7.23413 10.6881 6.94124 10.981C6.64835 11.2739 6.17347 11.2739 5.88058 10.981L1.10761 6.20806ZM19.3623 5.67773L19.3623 6.42773L1.63794 6.42773L1.63794 5.67773L1.63794 4.92773L19.3623 4.92773L19.3623 5.67773Z"
-                fill="white"
-                fill-opacity="1"
-              />
-            </svg>
-          </button>
-          <button
-            class="swiper-button swiper-button-next project-benefits__arrow--next"
-          >
-            <svg
-              width="20"
-              height="12"
-              viewBox="0 0 20 12"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+              <svg
+                width="21"
+                height="12"
+                viewBox="0 0 21 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19.3623 4.92773C19.7765 4.92773 20.1123 5.26352 20.1123 5.67773C20.1123 6.09195 19.7765 6.42773 19.3623 6.42773L19.3623 4.92773ZM1.10761 6.20806C0.814716 5.91517 0.814716 5.4403 1.10761 5.1474L5.88058 0.374432C6.17347 0.081539 6.64835 0.081539 6.94124 0.374432C7.23413 0.667326 7.23413 1.1422 6.94124 1.43509L2.6986 5.67773L6.94124 9.92037C7.23413 10.2133 7.23413 10.6881 6.94124 10.981C6.64835 11.2739 6.17347 11.2739 5.88058 10.981L1.10761 6.20806ZM19.3623 5.67773L19.3623 6.42773L1.63794 6.42773L1.63794 5.67773L1.63794 4.92773L19.3623 4.92773L19.3623 5.67773Z"
+                  fill="white"
+                  fill-opacity="1"
+                />
+              </svg>
+            </button>
+            <button
+              class="swiper-button swiper-button-next project-benefits__arrow--next"
             >
-              <path
-                d="M0.773926 5.51904C0.359712 5.51904 0.0239257 5.85483 0.0239258 6.26904C0.0239258 6.68326 0.359712 7.01904 0.773926 7.01904L0.773926 5.51904ZM19.0286 6.79937C19.3215 6.50648 19.3215 6.0316 19.0286 5.73871L14.2557 0.965741C13.9628 0.672848 13.4879 0.672848 13.195 0.965741C12.9021 1.25863 12.9021 1.73351 13.195 2.0264L17.4376 6.26904L13.195 10.5117C12.9021 10.8046 12.9021 11.2794 13.195 11.5723C13.4879 11.8652 13.9628 11.8652 14.2557 11.5723L19.0286 6.79937ZM0.773926 6.26904L0.773926 7.01904L18.4983 7.01904L18.4983 6.26904L18.4983 5.51904L0.773926 5.51904L0.773926 6.26904Z"
-                fill="white"
-              />
-            </svg>
-          </button>
+              <svg
+                width="20"
+                height="12"
+                viewBox="0 0 20 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.773926 5.51904C0.359712 5.51904 0.0239257 5.85483 0.0239258 6.26904C0.0239258 6.68326 0.359712 7.01904 0.773926 7.01904L0.773926 5.51904ZM19.0286 6.79937C19.3215 6.50648 19.3215 6.0316 19.0286 5.73871L14.2557 0.965741C13.9628 0.672848 13.4879 0.672848 13.195 0.965741C12.9021 1.25863 12.9021 1.73351 13.195 2.0264L17.4376 6.26904L13.195 10.5117C12.9021 10.8046 12.9021 11.2794 13.195 11.5723C13.4879 11.8652 13.9628 11.8652 14.2557 11.5723L19.0286 6.79937ZM0.773926 6.26904L0.773926 7.01904L18.4983 7.01904L18.4983 6.26904L18.4983 5.51904L0.773926 5.51904L0.773926 6.26904Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+          </div>
+          <swiper
+            :modules="swiperModules"
+            :space-between="25"
+            :autoHeight="true"
+            :navigation="{
+              nextEl: '.project-benefits__arrow--next',
+              prevEl: '.project-benefits__arrow--prev',
+            }"
+            :breakpoints="{
+              0: {
+                slidesPerView: 1.1,
+                spaceBetween: 8,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+              1024: {
+                slidesPerView: 3,
+              },
+              1400: {
+                slidesPerView: 3,
+              },
+            }"
+            class="project-benefits__slider"
+          >
+            <swiper-slide
+              class="project-benefits__card"
+              @click="isModal = true"
+            >
+              <div class="project-benefits__card-icon">
+                <img
+                  src="@/assets/img/icons/icon-anticheat.svg"
+                  alt="Anticheat icon"
+                />
+              </div>
+              <h3 class="project-benefits__card-title">Anticheat.</h3>
+              <p class="project-benefits__card-description">
+                A beautiful, procedurally generated world awaits you, shrouded
+                in mystery.
+              </p>
+              <div class="project-benefits__card-action">
+                <img src="@/assets/img/icons/icon-arrow.svg" alt="More" />
+              </div>
+            </swiper-slide>
+            <swiper-slide
+              class="project-benefits__card"
+              @click="isModal = true"
+            >
+              <div class="project-benefits__card-icon">
+                <img
+                  src="@/assets/img/icons/icon-performance.svg"
+                  alt="Performance icon"
+                />
+              </div>
+              <h3 class="project-benefits__card-title">Performance.</h3>
+              <p class="project-benefits__card-description">
+                A beautiful, procedurally generated world awaits you, shrouded
+                in mystery.
+              </p>
+              <div class="project-benefits__card-action">
+                <img src="@/assets/img/icons/icon-arrow.svg" alt="More" />
+              </div>
+            </swiper-slide>
+            <swiper-slide
+              class="project-benefits__card"
+              @click="isModal = true"
+            >
+              <div class="project-benefits__card-icon">
+                <img
+                  src="@/assets/img/icons/icon-economy.svg"
+                  alt="Economy icon"
+                />
+              </div>
+              <h3 class="project-benefits__card-title">
+                Stable and optimized economy.
+              </h3>
+              <p class="project-benefits__card-description">
+                A beautiful, procedurally generated world awaits you, shrouded
+                in mystery.
+              </p>
+              <div class="project-benefits__card-action">
+                <img src="@/assets/img/icons/icon-arrow.svg" alt="More" />
+              </div>
+            </swiper-slide>
+            <swiper-slide
+              class="project-benefits__card"
+              @click="isModal = true"
+            >
+              <div class="project-benefits__card-icon">
+                <img
+                  src="@/assets/img/icons/icon-profile-sync.svg"
+                  alt="Anticheat icon"
+                />
+              </div>
+              <h3 class="project-benefits__card-title">Active admins.</h3>
+              <p class="project-benefits__card-description">
+                A beautiful, procedurally generated world awaits you, shrouded
+                in mystery.
+              </p>
+              <div class="project-benefits__card-action">
+                <img src="@/assets/img/icons/icon-arrow.svg" alt="More" />
+              </div>
+            </swiper-slide>
+            <swiper-slide
+              class="project-benefits__card"
+              @click="isModal = true"
+            >
+              <div class="project-benefits__card-icon">
+                <img
+                  src="@/assets/img/icons/icon-puzzle.svg"
+                  alt="Anticheat icon"
+                />
+              </div>
+              <h3 class="project-benefits__card-title">Custom mods.</h3>
+              <p class="project-benefits__card-description">
+                A beautiful, procedurally generated world awaits you, shrouded
+                in mystery.
+              </p>
+              <div class="project-benefits__card-action">
+                <img src="@/assets/img/icons/icon-arrow.svg" alt="More" />
+              </div>
+            </swiper-slide>
+          </swiper>
         </div>
-        <swiper
-          :modules="swiperModules"
-          :space-between="25"
-          :autoHeight="true"
-          :navigation="{
-            nextEl: '.project-benefits__arrow--next',
-            prevEl: '.project-benefits__arrow--prev',
-          }"
-          :breakpoints="{
-            0: {
-              slidesPerView: 1.1,
-              spaceBetween: 8,
-            },
-            768: {
-              slidesPerView: 2,
-            },
-            1024: {
-              slidesPerView: 3,
-            },
-            1400: {
-              slidesPerView: 3,
-            },
-          }"
-          class="project-benefits__slider"
-        >
-          <swiper-slide class="project-benefits__card" @click="isModal = true">
-            <div class="project-benefits__card-icon">
-              <img
-                src="@/assets/img/icons/icon-anticheat.svg"
-                alt="Anticheat icon"
-              />
-            </div>
-            <h3 class="project-benefits__card-title">Anticheat.</h3>
-            <p class="project-benefits__card-description">
-              A beautiful, procedurally generated world awaits you, shrouded in
-              mystery.
-            </p>
-            <div class="project-benefits__card-action">
-              <img src="@/assets/img/icons/icon-arrow.svg" alt="More" />
-            </div>
-          </swiper-slide>
-          <swiper-slide class="project-benefits__card" @click="isModal = true">
-            <div class="project-benefits__card-icon">
-              <img
-                src="@/assets/img/icons/icon-performance.svg"
-                alt="Performance icon"
-              />
-            </div>
-            <h3 class="project-benefits__card-title">Performance.</h3>
-            <p class="project-benefits__card-description">
-              A beautiful, procedurally generated world awaits you, shrouded in
-              mystery.
-            </p>
-            <div class="project-benefits__card-action">
-              <img src="@/assets/img/icons/icon-arrow.svg" alt="More" />
-            </div>
-          </swiper-slide>
-          <swiper-slide class="project-benefits__card" @click="isModal = true">
-            <div class="project-benefits__card-icon">
-              <img
-                src="@/assets/img/icons/icon-economy.svg"
-                alt="Economy icon"
-              />
-            </div>
-            <h3 class="project-benefits__card-title">
-              Stable and optimized economy.
-            </h3>
-            <p class="project-benefits__card-description">
-              A beautiful, procedurally generated world awaits you, shrouded in
-              mystery.
-            </p>
-            <div class="project-benefits__card-action">
-              <img src="@/assets/img/icons/icon-arrow.svg" alt="More" />
-            </div>
-          </swiper-slide>
-          <swiper-slide class="project-benefits__card" @click="isModal = true">
-            <div class="project-benefits__card-icon">
-              <img
-                src="@/assets/img/icons/icon-profile-sync.svg"
-                alt="Anticheat icon"
-              />
-            </div>
-            <h3 class="project-benefits__card-title">Active admins.</h3>
-            <p class="project-benefits__card-description">
-              A beautiful, procedurally generated world awaits you, shrouded in
-              mystery.
-            </p>
-            <div class="project-benefits__card-action">
-              <img src="@/assets/img/icons/icon-arrow.svg" alt="More" />
-            </div>
-          </swiper-slide>
-          <swiper-slide class="project-benefits__card" @click="isModal = true">
-            <div class="project-benefits__card-icon">
-              <img
-                src="@/assets/img/icons/icon-puzzle.svg"
-                alt="Anticheat icon"
-              />
-            </div>
-            <h3 class="project-benefits__card-title">Custom mods.</h3>
-            <p class="project-benefits__card-description">
-              A beautiful, procedurally generated world awaits you, shrouded in
-              mystery.
-            </p>
-            <div class="project-benefits__card-action">
-              <img src="@/assets/img/icons/icon-arrow.svg" alt="More" />
-            </div>
-          </swiper-slide>
-        </swiper>
       </div>
     </section>
     <section
@@ -650,8 +667,9 @@
             <path
               d="M7.79258 2.66194C7.5898 2.86187 7.57077 3.1778 7.73701 3.39946L7.78694 3.45742L11.2188 6.9375L2.4375 6.9375C2.12684 6.9375 1.875 7.18934 1.875 7.5C1.875 7.78676 2.08959 8.02341 2.36694 8.05812L2.4375 8.0625H11.2188L7.78694 11.5426C7.58701 11.7454 7.57247 12.0615 7.74184 12.2808L7.79258 12.3381C7.99537 12.538 8.31153 12.5525 8.53081 12.3832L8.58806 12.3324L12.9631 7.89492C13.161 7.69416 13.1775 7.3818 13.0125 7.16245L12.9631 7.10508L8.58806 2.66758C8.36995 2.44636 8.01381 2.44384 7.79258 2.66194Z"
               fill="#DF243A"
-            /></svg
-        ></a>
+            />
+          </svg>
+        </a>
       </div>
     </div>
   </div>
@@ -807,6 +825,8 @@ on a mighty longship, but be wary of sailing too far…`,
       currentSection: 0,
       totalSections: 6,
       isAnimating: false,
+      touchStartY: 0,
+      touchEndY: 0,
       swiperInstance: null,
       activeIndex: 0,
     };
@@ -837,9 +857,17 @@ on a mighty longship, but be wary of sailing too far…`,
   mounted() {
     this.GET_USER();
     window.addEventListener("wheel", this.handleWheel, { passive: false });
+    window.addEventListener("touchstart", this.handleTouchStart, {
+      passive: false,
+    });
+    window.addEventListener("touchend", this.handleTouchEnd, {
+      passive: false,
+    });
   },
   beforeUnmount() {
     window.removeEventListener("wheel", this.handleWheel);
+    window.removeEventListener("touchstart", this.handleTouchStart);
+    window.removeEventListener("touchend", this.handleTouchEnd);
   },
   methods: {
     ...mapActions(["GET_USER"]),
@@ -877,6 +905,51 @@ on a mighty longship, but be wary of sailing too far…`,
             setTimeout(() => (this.isAnimating = false), 900);
           }
           e.preventDefault();
+        }
+      }
+    },
+    handleTouchStart(e) {
+      // faqat bitta fingerni olamiz
+      this.touchStartY = e.touches[0].clientY;
+    },
+    handleTouchEnd(e) {
+      this.touchEndY = e.changedTouches[0].clientY;
+      this.handleTouchScroll();
+    },
+    handleTouchScroll() {
+      if (this.isAnimating) return;
+      const diff = this.touchStartY - this.touchEndY;
+      if (Math.abs(diff) < 40) return; // kichik harakatga reaksiya qilmasin
+      const sections = document.querySelectorAll(".scroll-slider");
+      const current = sections[this.currentSection];
+
+      // Pastga scroll (user yuqoriga surdi)
+      if (diff > 0) {
+        if (
+          current.scrollTop + current.clientHeight >=
+          current.scrollHeight - 6
+        ) {
+          if (this.currentSection < this.totalSections - 1) {
+            this.isAnimating = true;
+            this.currentSection++;
+            sections[this.currentSection].scrollIntoView({
+              behavior: "smooth",
+            });
+            setTimeout(() => (this.isAnimating = false), 900);
+          }
+        }
+      }
+      // Yuqoriga scroll (user pastga surdi)
+      if (diff < 0) {
+        if (current.scrollTop <= 0) {
+          if (this.currentSection > 0) {
+            this.isAnimating = true;
+            this.currentSection--;
+            sections[this.currentSection].scrollIntoView({
+              behavior: "smooth",
+            });
+            setTimeout(() => (this.isAnimating = false), 900);
+          }
         }
       }
     },
@@ -1280,6 +1353,8 @@ on a mighty longship, but be wary of sailing too far…`,
   padding: 200px 0 250px
   @media (max-width: $mobileContainer)
     padding: 140px 0 32px
+  &-in
+    overflow: hidden
   &__container
     max-width: 1360px
     margin: 0 auto
@@ -1307,6 +1382,7 @@ on a mighty longship, but be wary of sailing too far…`,
       color: #df243a
   &__slider
     width: 100%
+    overflow: visible
     margin-top: 30px
     @media (max-width: 768px)
       width: calc(100% + 30px)
