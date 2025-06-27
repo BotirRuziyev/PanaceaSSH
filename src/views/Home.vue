@@ -1070,6 +1070,8 @@ on a mighty longship, but be wary of sailing too far…`,
     padding: 140px 0 32px
   .swiper__arrows
     @media (max-width: 1200px)
+      width: 100%
+      justify-content: center
       margin: 0 auto
 
   &__title
