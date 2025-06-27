@@ -966,6 +966,7 @@ on a mighty longship, but be wary of sailing too far…`,
   height: 100vh
   overflow: hidden
   scroll-behavior: smooth
+  background: #050505
 
 .scroll-slider
   width: 100%

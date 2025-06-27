@@ -49,6 +49,10 @@
 }
 
 body {
+  background-image: url("~@/assets/img/main_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   width: 100%;
   min-height: 100%;
   overflow-x: hidden;

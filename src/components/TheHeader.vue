@@ -18,7 +18,10 @@
               v-if="!USER.auth"
               >Log in with Steam</a
             >
-            <router-link to="/Roulette" v-else>Roulette</router-link>
+            <router-link to="/leaderboard" v-if="USER.auth"
+              >Leaderboard</router-link
+            >
+            <router-link to="/Roulette" v-if="USER.auth">Roulette</router-link>
           </li>
         </ul>
       </nav>
@@ -161,7 +164,7 @@ export default {
             closeButton: "button",
             icon: true,
             rtl: false,
-          }
+          },
         );
       }
     },

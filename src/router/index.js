@@ -4,15 +4,6 @@ import store from '@/store/index.js'
 const routes = [
   {
     path: "/",
-    name: "homeview",
-    component: () => import('../views/HomeView.vue'),
-    meta: {
-      title: "Panacea",
-      requiresLogin: false
-    }
-  },
-  {
-    path: "/home",
     name: "Home",
     component: () => import('../views/Home.vue'),
     meta: {
@@ -78,6 +69,15 @@ const routes = [
     path: '/Fulfilment',
     name: 'fulfilment',
     component: () => import("../views/Fulfilment.vue"),
+    meta: {
+      title: "Panacea",
+      requiresLogin: false,
+    }
+  },
+  {
+    path: '/leaderboard',
+    name: 'leaderboard',
+    component: () => import("../views/Leaderboard.vue"),
     meta: {
       title: "Panacea",
       requiresLogin: false,
