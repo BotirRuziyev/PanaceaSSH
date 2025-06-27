@@ -164,10 +164,10 @@ export default {
 <style lang="sass" scoped>
 footer
   margin-top: 115px
-  padding-bottom: 121px
+  padding: 0 15px 120px
   @media (max-width: $mobileContainer)
     margin-top: 48px
-    padding-bottom: 60px
+    padding: 0 15px 60px
 .footer__logo
   max-width: 347px
   width: 100%
