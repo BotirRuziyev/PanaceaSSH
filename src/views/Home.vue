@@ -1671,7 +1671,7 @@ on a mighty longship, but be wary of sailing too far…`,
     letter-spacing: -0.04em
     color: #fff
     @media (max-width: $mobileContainer)
-      font-size: 20px;
+      font-size: 20px
   &__card-description
     margin-bottom: 32px
     font-family: "Inter", sans-serif
