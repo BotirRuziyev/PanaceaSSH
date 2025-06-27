@@ -1489,7 +1489,7 @@ on a mighty longship, but be wary of sailing too far…`,
     padding: 16px 16px 42px
     &:hover
       .news__card-bg
-        transform: scale(1)
+        transform: scale(1.1)
       .news__card-character
         transform: translate(-15px, -15px)
     &:nth-child(1)
@@ -1516,7 +1516,8 @@ on a mighty longship, but be wary of sailing too far…`,
       width: 100%
       height: 100%
       object-fit: cover
-      transform: scale(1.2)
+      transform: scale(1.3)
+      transform-origin: center
       transition: 0.5s
     &-character
       width: auto
