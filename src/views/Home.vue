@@ -506,125 +506,120 @@
         </div>
       </div>
     </section>
-    <section
-      class="news scroll-slider"
+    <div
+      class="scroll-slider"
       :class="{
         'scroll-slider--passed': currentSection > 4,
         'scroll-slider--active': 4 === currentSection,
       }"
       ref="section4"
     >
-      <div class="news__container">
-        <h2 class="news__title">More news.</h2>
+      <section class="news">
+        <div class="news__container">
+          <h2 class="news__title">More news.</h2>
 
-        <div class="news__slider-wrapper">
-          <swiper
-            :modules="swiperModules"
-            :autoHeight="true"
-            :navigation="{
-              prevEl: '.news__arrow--prev',
-              nextEl: '.news__arrow--next',
-            }"
-            :spaceBetween="24"
-            :breakpoints="{
-              0: { slidesPerView: 1.1, spaceBetween: 8 },
-              768: { slidesPerView: 2 },
-              1024: { slidesPerView: 3 },
-            }"
-            class="news__slider"
-          >
-            <swiper-slide
-              class="news__card"
-              v-for="post in newsPosts"
-              :key="post.id"
+          <div class="news__slider-wrapper">
+            <swiper
+              :modules="swiperModules"
+              :autoHeight="true"
+              :navigation="{
+                prevEl: '.news__arrow--prev',
+                nextEl: '.news__arrow--next',
+              }"
+              :spaceBetween="24"
+              :breakpoints="{
+                0: { slidesPerView: 1.1, spaceBetween: 8 },
+                768: { slidesPerView: 2 },
+                1024: { slidesPerView: 3 },
+              }"
+              class="news__slider"
             >
-              <div class="news__card-image">
-                <img
-                  :src="post.image"
-                  :alt="post.title"
-                  class="news__card-bg"
-                />
-                <img
-                  :src="post.img"
-                  alt="Character"
-                  class="news__card-character"
-                />
-              </div>
-              <div class="news__card-content">
-                <h3 class="news__card-title">{{ post.title }}</h3>
-                <span class="news__card-date">{{ post.date }}</span>
-                <p class="news__card-description">{{ post.description }}</p>
-                <div class="news__card-wrapper--button">
-                  <router-link to="#" class="news__card-button"
-                    >Read More</router-link
-                  >
+              <swiper-slide
+                class="news__card"
+                v-for="post in newsPosts"
+                :key="post.id"
+              >
+                <div class="news__card-image">
+                  <img
+                    :src="post.image"
+                    :alt="post.title"
+                    class="news__card-bg"
+                  />
+                  <img
+                    :src="post.img"
+                    alt="Character"
+                    class="news__card-character"
+                  />
                 </div>
-              </div>
-            </swiper-slide>
-          </swiper>
-          <div class="swiper__arrows">
-            <button
-              class="swiper-button swiper-button-prev news__arrow--prev"
-              aria-label="Previous"
-            >
-              <svg
-                width="21"
-                height="12"
-                viewBox="0 0 21 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+                <div class="news__card-content">
+                  <h3 class="news__card-title">{{ post.title }}</h3>
+                  <span class="news__card-date">{{ post.date }}</span>
+                  <p class="news__card-description">{{ post.description }}</p>
+                  <div class="news__card-wrapper--button">
+                    <router-link to="#" class="news__card-button"
+                      >Read More</router-link
+                    >
+                  </div>
+                </div>
+              </swiper-slide>
+            </swiper>
+            <div class="swiper__arrows">
+              <button
+                class="swiper-button swiper-button-prev news__arrow--prev"
+                aria-label="Previous"
               >
-                <path
-                  d="M19.3623 4.92773C19.7765 4.92773 20.1123 5.26352 20.1123 5.67773C20.1123 6.09195 19.7765 6.42773 19.3623 6.42773L19.3623 4.92773ZM1.10761 6.20806C0.814716 5.91517 0.814716 5.4403 1.10761 5.1474L5.88058 0.374432C6.17347 0.081539 6.64835 0.081539 6.94124 0.374432C7.23413 0.667326 7.23413 1.1422 6.94124 1.43509L2.6986 5.67773L6.94124 9.92037C7.23413 10.2133 7.23413 10.6881 6.94124 10.981C6.64835 11.2739 6.17347 11.2739 5.88058 10.981L1.10761 6.20806ZM19.3623 5.67773L19.3623 6.42773L1.63794 6.42773L1.63794 5.67773L1.63794 4.92773L19.3623 4.92773L19.3623 5.67773Z"
-                  fill="white"
-                  fill-opacity="1"
-                />
-              </svg>
-            </button>
-            <button
-              class="swiper-button swiper-button-next news__arrow--next"
-              aria-label="Next"
-            >
-              <svg
-                width="20"
-                height="12"
-                viewBox="0 0 20 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+                <svg
+                  width="21"
+                  height="12"
+                  viewBox="0 0 21 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M19.3623 4.92773C19.7765 4.92773 20.1123 5.26352 20.1123 5.67773C20.1123 6.09195 19.7765 6.42773 19.3623 6.42773L19.3623 4.92773ZM1.10761 6.20806C0.814716 5.91517 0.814716 5.4403 1.10761 5.1474L5.88058 0.374432C6.17347 0.081539 6.64835 0.081539 6.94124 0.374432C7.23413 0.667326 7.23413 1.1422 6.94124 1.43509L2.6986 5.67773L6.94124 9.92037C7.23413 10.2133 7.23413 10.6881 6.94124 10.981C6.64835 11.2739 6.17347 11.2739 5.88058 10.981L1.10761 6.20806ZM19.3623 5.67773L19.3623 6.42773L1.63794 6.42773L1.63794 5.67773L1.63794 4.92773L19.3623 4.92773L19.3623 5.67773Z"
+                    fill="white"
+                    fill-opacity="1"
+                  />
+                </svg>
+              </button>
+              <button
+                class="swiper-button swiper-button-next news__arrow--next"
+                aria-label="Next"
               >
-                <path
-                  d="M0.773926 5.51904C0.359712 5.51904 0.0239257 5.85483 0.0239258 6.26904C0.0239258 6.68326 0.359712 7.01904 0.773926 7.01904L0.773926 5.51904ZM19.0286 6.79937C19.3215 6.50648 19.3215 6.0316 19.0286 5.73871L14.2557 0.965741C13.9628 0.672848 13.4879 0.672848 13.195 0.965741C12.9021 1.25863 12.9021 1.73351 13.195 2.0264L17.4376 6.26904L13.195 10.5117C12.9021 10.8046 12.9021 11.2794 13.195 11.5723C13.4879 11.8652 13.9628 11.8652 14.2557 11.5723L19.0286 6.79937ZM0.773926 6.26904L0.773926 7.01904L18.4983 7.01904L18.4983 6.26904L18.4983 5.51904L0.773926 5.51904L0.773926 6.26904Z"
-                  fill="white"
-                />
-              </svg>
-            </button>
+                <svg
+                  width="20"
+                  height="12"
+                  viewBox="0 0 20 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0.773926 5.51904C0.359712 5.51904 0.0239257 5.85483 0.0239258 6.26904C0.0239258 6.68326 0.359712 7.01904 0.773926 7.01904L0.773926 5.51904ZM19.0286 6.79937C19.3215 6.50648 19.3215 6.0316 19.0286 5.73871L14.2557 0.965741C13.9628 0.672848 13.4879 0.672848 13.195 0.965741C12.9021 1.25863 12.9021 1.73351 13.195 2.0264L17.4376 6.26904L13.195 10.5117C12.9021 10.8046 12.9021 11.2794 13.195 11.5723C13.4879 11.8652 13.9628 11.8652 14.2557 11.5723L19.0286 6.79937ZM0.773926 6.26904L0.773926 7.01904L18.4983 7.01904L18.4983 6.26904L18.4983 5.51904L0.773926 5.51904L0.773926 6.26904Z"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section
-      class="footer-wrapper scroll-slider"
-      :class="{
-        'scroll-slider--passed': currentSection >= 5,
-        'scroll-slider--active': 5 === currentSection,
-      }"
-      ref="section5"
-    >
-      <div class="footer__cta">
-        <h2 class="footer__cta-title">
-          Have questions?<br />
-          <span class="footer__cta-subtitle">Let us know in Discord.</span>
-        </h2>
-        <a
-          href="https://discord.gg/panacea"
-          target="_blank"
-          class="footer__cta-button discord"
-        >
-          Discord
-        </a>
-      </div>
-      <TheFooter></TheFooter>
-    </section>
+      </section>
+      <section class="footer-wrapper">
+        <div class="footer__cta">
+          <h2 class="footer__cta-title">
+            Have questions?<br />
+            <span class="footer__cta-subtitle">Let us know in Discord.</span>
+          </h2>
+          <a
+            href="https://discord.gg/panacea"
+            target="_blank"
+            class="footer__cta-button discord"
+          >
+            Discord
+          </a>
+        </div>
+        <TheFooter></TheFooter>
+      </section>
+    </div>
 
     <div class="modal" :class="{ show: isModal }">
       <div class="modal-in">
@@ -823,7 +818,7 @@ on a mighty longship, but be wary of sailing too far…`,
       ],
       swiperModules: [Navigation, EffectFade],
       currentSection: 0,
-      totalSections: 6,
+      totalSections: 5,
       isAnimating: false,
       touchStartY: 0,
       touchEndY: 0,
@@ -977,6 +972,7 @@ on a mighty longship, but be wary of sailing too far…`,
   z-index: 1
   scroll-snap-align: start
   scroll-snap-stop: always
+  transition: 0.5s
   &--passed
     top: 0
   &--active
@@ -1533,6 +1529,7 @@ on a mighty longship, but be wary of sailing too far…`,
     width: 100%
     justify-content: center
 .news
+  min-height: 100vh
   transition: 0.5s
   background: #0e0d10
   padding: 130px 0 95px
@@ -1663,6 +1660,7 @@ on a mighty longship, but be wary of sailing too far…`,
         display: none !important
         height: 0
 .footer-wrapper
+  min-height: 100vh
   transition: 0.5s
   background: #0e0d10 url("@/assets/img/footer-bg.png") no-repeat center/cover
   padding: 130px 0 0
