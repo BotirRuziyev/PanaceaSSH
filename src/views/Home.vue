@@ -1529,10 +1529,9 @@ on a mighty longship, but be wary of sailing too far…`,
     width: 100%
     justify-content: center
 .news
-  min-height: 100vh
   transition: 0.5s
   background: #0e0d10
-  padding: 130px 0 95px
+  padding: 130px 0 32px
   @media (max-width: $mobileContainer)
     padding: 140px 0 32px
   &__container
@@ -1660,7 +1659,6 @@ on a mighty longship, but be wary of sailing too far…`,
         display: none !important
         height: 0
 .footer-wrapper
-  min-height: 100vh
   transition: 0.5s
   background: #0e0d10 url("@/assets/img/footer-bg.png") no-repeat center/cover
   padding: 130px 0 0
