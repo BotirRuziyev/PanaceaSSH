@@ -1661,7 +1661,7 @@ on a mighty longship, but be wary of sailing too far…`,
 .footer-wrapper
   transition: 0.5s
   background: #0e0d10 url("@/assets/img/footer-bg.png") no-repeat center/cover
-  padding: 130px 0 0
+  padding: 50px 0 0
   @media (max-width: $mobileContainer)
     background: #0e0d10 url("@/assets/img/footer-mobile-bg.png") no-repeat center/cover
     padding: 120px 0 0
